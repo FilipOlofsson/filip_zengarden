@@ -1,0 +1,139 @@
+body {
+	background-image:url(img/background.jpg);
+	background-attachment: fixed;
+	font-family:serif;
+}
+footer {
+	text-align: center;
+	margin-left:236px;
+	margin-top: 115px;
+	width:150px;
+	position:fixed;
+	left:0;
+	top:0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color:white;
+	text-shadow: 0px 0px 4px black;
+	transition-duration: 0.2s;
+}
+a:hover {
+	text-shadow: 0px 0px 12px black;
+}
+footer a {
+	display:block;
+	padding:10px;
+	height:31px;
+	width:50px;
+	text-decoration: none;
+	color:black;
+	line-height: 31px;
+	vertical-align: middle;
+	background-color: white;
+	transition-duration: 0.2s;
+	border-color:black;
+	border-style:solid;
+	border-width: thin;
+}
+footer a:hover {
+	background-color: #999999;
+	padding-right: 5px;
+}
+header {
+	text-align:center;
+}
+header h1 {
+	font-size:45px;
+	background-color:#CCFFCC;
+	width:30%;
+	height:50px;
+	margin:auto;
+	padding:10px;
+	border-style:solid;
+	border-width: thick;
+	border-radius:5px;
+}
+header h2 {
+	color:#C9C9C9;
+	width:25%;
+	margin:auto;
+}
+.summary {
+	position:fixed;
+	width:215px;
+	height:265px;
+	float:left;
+	background-color:#CCFFCC;
+	padding-left:5px;
+	padding-right:2px;
+}
+.preamble {
+	width:30%;
+	padding:10px;
+	border-radius:5px;
+	float:center;
+	margin:auto;
+	height:auto;
+	margin-top:250px;
+	background-color:#CCFFCC;
+}
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.explanation, .requirements, .participation, .benefits {
+	float:center;
+	margin:auto;
+	width:30%;
+	height:auto;
+	border-radius:5px;
+	margin-top:50px;
+	padding:10px;
+	background-color:#CCFFCC;
+}
+.select {
+	text-align: center;
+	letter-spacing:5px;
+}
+.design-selection {
+	position:fixed;
+	background-color:#CCFFCC;
+	width:300px;
+	left:0;
+	top:0;
+	margin-top: 385px;
+	margin-left: 8px;
+}
+.design-archives h3 {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.design-archives {
+	position:fixed;
+	background-color:#CCFFCC;
+	width:300px;
+	left:0;
+	top:0;
+	margin-top: 630px;
+	margin-left: 8px;
+}
+.zen-resources h3 {
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.zen-resources {
+	display: block;
+	border-radius:5px;
+	padding:10px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width:25%;
+	background-color: #CCFFCC;
+}
